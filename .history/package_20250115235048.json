@@ -1,0 +1,16 @@
+{
+    "name": "mosaic-email-bot",
+    "version": "1.0.0",
+    "main": "src/bot.js",
+    "scripts": {
+      "start": "node src/bot.js",
+      "dev": "nodemon src/bot.js"
+    },
+    "dependencies": {
+      "nodemailer": "^6.9.7",
+      "dotenv": "^16.3.1"
+    },
+    "devDependencies": {
+      "nodemon": "^3.0.2"
+    }
+  }
